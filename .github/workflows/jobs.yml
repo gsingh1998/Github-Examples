@@ -10,7 +10,6 @@ jobs:
         run: echo "world"
   job2:
     runs-on: ubuntu-latest
-    needs: job1
     steps:
       - name: stepA
         run: echo "hello"
